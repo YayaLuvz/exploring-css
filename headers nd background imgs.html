@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Attempting Multiple Backgrounds</title>
+    <style media="screen">
+      #example1 {
+        width: 100%;
+        height: 400px;
+        background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/H0MA-uKSipsekm5s/videoblocks-mysterious-marshy-forest-with-supernatural-fairy-firefly-lights-soaring-in-the-air-at-dark-misty-night-fantasy-3d-animation-rendered-in-4k_rc0_v6qsz_thumbnail-full01.png), url(https://ya-webdesign.com/images/green-magic-png-5.png);
+        background-position: left top, left middle;
+        
+        <!--This is an adaptive cover. Manipulate the window that you see it in and you'll see the image change accordingly-->
+      }
+      .hero-image {
+        background: url(https://ak5.picdn.net/shutterstock/videos/29957155/thumb/1.jpg) no-repeat center;
+        background-size: cover;
+        height: 500px;
+        position: relative;
+      }
+
+      .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Attempting Multiple Backgrounds...</h1>
+  <div id="example1">
+    <h1>Lorem Ipsum Dolor</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+  </div> <br> <br>
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">I am Jane Doe</h1>
+      <h3>And I'm a Photographer</h3>
+      <a href="#example1"><button>Hire me</button></a>
+    </div>
+  </div>
+  </body>
+</html>
